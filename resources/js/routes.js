@@ -1,6 +1,7 @@
 import Users from './components/Users';
 import EditUser from './components/EditUser';
 import AddUser from './components/AddUser';
+import About from './components/About';
 
 export default {
     mode: 'history',
@@ -18,6 +19,10 @@ export default {
         {
             path: '/add',
             component: AddUser
+        },
+        {
+            path: '/about',
+            component: About
         }
     ]
 }

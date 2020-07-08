@@ -13,6 +13,7 @@ Vue.component('navbar', require('./components/Navbar.vue').default);
 Vue.component('users', require('./components/Users.vue').default);
 Vue.component('edit-user', require('./components/EditUser.vue').default);
 Vue.component('add-user', require('./components/AddUser.vue').default);
+Vue.component('about', require('./components/About.vue').default);
 
 const app = new Vue({
     el: '#app',
